@@ -76,5 +76,5 @@ weight: 60
 
 <details>
 <summary>Hvordan kan jeg bidrage ud over at bruge rummet?</summary>
-<p>Makerspacet drives udelukkende af frivillige. Du kan hjælpe med vedligeholdelse, afholde workshops, stille op til bestyrelsen eller bidrage på andre måder. Tilslut dig <a href="https://discord.gg/HDR8jsUp">Discord</a> for at komme i kontakt med fællesskabet.</p>
+<p>Makerspacet drives udelukkende af frivillige. Du kan hjælpe med vedligeholdelse, afholde workshops, stille op til bestyrelsen eller bidrage på andre måder. Tilslut dig <a href="{{< discord-url >}}">Discord</a> for at komme i kontakt med fællesskabet.</p>
 </details>

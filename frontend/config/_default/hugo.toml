@@ -11,6 +11,15 @@ defaultContentLanguage = 'en'
 enableRobotsTXT = true
 disableKinds = ['taxonomy', 'term']
 
+[outputFormats.community]
+  mediaType = 'application/json'
+  baseName = 'community'
+  isPlainText = true
+  notAlternative = true
+
+[outputs]
+  home = ['html', 'rss', 'community']
+
 # Brand logos are a single source of truth in frontend/branding/logos/ — the
 # Hugo site, the Typst pipeline in marketing-materials/, and the campaign
 # folder all read that one directory instead of keeping copies.

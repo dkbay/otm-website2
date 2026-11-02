@@ -50,4 +50,4 @@ Jumpstart your tech projects with reliable electronic parts. Look for:
 
 ---
 
-As you explore, remember that the makerspace community is always ready to help! If you're unsure where to start, join our [Discord](https://discord.gg/HDR8jsUp) or ask fellow members for guidance — you'll be surprised how much support you'll find as you get started.
+As you explore, remember that the makerspace community is always ready to help! If you're unsure where to start, join our [Discord]({{< discord-url >}}) or ask fellow members for guidance — you'll be surprised how much support you'll find as you get started.

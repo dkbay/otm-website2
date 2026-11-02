@@ -50,4 +50,4 @@ Sæt gang i dine teknologiprojekter med pålidelige elektroniske dele. Kig efter
 
 ---
 
-Mens du udforsker, husk at makerspace-fællesskabet altid er klar til at hjælpe! Hvis du er usikker på, hvor du skal starte, deltag i vores [Discord](https://discord.gg/HDR8jsUp) eller spørg andre medlemmer om vejledning — du vil blive overrasket over, hvor meget støtte du finder, når du kommer i gang.
+Mens du udforsker, husk at makerspace-fællesskabet altid er klar til at hjælpe! Hvis du er usikker på, hvor du skal starte, deltag i vores [Discord]({{< discord-url >}}) eller spørg andre medlemmer om vejledning — du vil blive overrasket over, hvor meget støtte du finder, når du kommer i gang.

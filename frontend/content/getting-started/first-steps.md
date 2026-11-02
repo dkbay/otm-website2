@@ -28,7 +28,7 @@ Understanding these documents helps ensure a smooth experience for you and every
 Once you've decided you want full access, here's how to get started:
 
 1. **Sign up for a membership** — Register as a paying member on our [membership portal]({{< members-url "signup" >}})
-2. **Join the Discord** — Connect with the community on the [makerspace Discord](https://discord.gg/HDR8jsUp)
+2. **Join the Discord** — Connect with the community on the [makerspace Discord]({{< discord-url >}})
 3. **Get your introduction** — Receive a formal introduction on how to enter and leave the space, as well as introductions to the different tools and work areas
 
 ## 5. Your First Introduction

@@ -6,7 +6,11 @@
 <!--
   Gmail signature for all hand-sent mail (info@ and personal Workspace accounts).
 
-  Usage: open this file in a browser, select all (Ctrl+A), copy (Ctrl+C),
+  Source template: export-signature.sh fills the Discord link from
+  frontend/config/_default/hugo.toml params.social.discord into
+  out/email-templates/signature.html.
+
+  Usage: open out/email-templates/signature.html in a browser, select all (Ctrl+A), copy (Ctrl+C),
   then paste with PLAIN Ctrl+V (not Ctrl+Shift+V) into Gmail → Settings →
   See all settings → General → Signature. Assign it to the
   info@otownmakerspace.dk send-as identity too, so both identities carry it.
@@ -58,7 +62,7 @@
     <span style="color:#7681AB;">&nbsp;&middot;&nbsp;</span>
     <a href="https://www.facebook.com/profile.php?id=61590717692379" style="color:#F68048; text-decoration:none;">Facebook</a>
     <span style="color:#7681AB;">&nbsp;&middot;&nbsp;</span>
-    <a href="https://discord.gg/RHVfMu49CG" style="color:#F68048; text-decoration:none;">Discord</a>
+    <a href="__DISCORD_URL__" style="color:#F68048; text-decoration:none;">Discord</a>
   </p>
 
 </div>

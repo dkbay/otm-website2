@@ -162,7 +162,7 @@ func (s *Service) fulfillCheckout(checkoutSessionID string) error {
 	}
 	s.mailingListAdd(u.Email, u.Name)
 
-	if err := s.Mailer.Send(u.Email, u, email.Welcome, "https://discord.gg/CGBgKNwT", struct{}{}); err != nil {
+	if err := s.Mailer.Send(u.Email, u, email.Welcome, s.DiscordURL, struct{}{}); err != nil {
 		log.Print("webhook: welcome email: ", err)
 		// non-fatal — user is created
 	}
@@ -201,7 +201,7 @@ func (s *Service) handleSubscriptionEnded(sub stripepkg.Subscription) error {
 		log.Printf("webhook: admin unsubscription email: %v", err)
 		return err
 	}
-	if err := s.Mailer.Send(u.Email, u, email.Goodbye, "https://discord.gg/CGBgKNwT", struct{}{}); err != nil {
+	if err := s.Mailer.Send(u.Email, u, email.Goodbye, s.DiscordURL, struct{}{}); err != nil {
 		log.Printf("webhook: goodbye email: %v", err)
 		return err
 	}

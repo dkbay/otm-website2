@@ -76,5 +76,5 @@ weight: 60
 
 <details>
 <summary>How can I get involved beyond using the space?</summary>
-<p>The makerspace is run entirely by volunteers. You can help with maintenance, host workshops, join the board, or contribute in other ways. Join the <a href="https://discord.gg/HDR8jsUp">Discord</a> to connect with the community.</p>
+<p>The makerspace is run entirely by volunteers. You can help with maintenance, host workshops, join the board, or contribute in other ways. Join the <a href="{{< discord-url >}}">Discord</a> to connect with the community.</p>
 </details>
