@@ -30,6 +30,15 @@ IND_DIR="$OUT_DIR/individual"
 # Only act when something that affects the rendered PNGs is staged. Keeps
 # ordinary commits fast — a full export is ~36 rasterizer invocations.
 staged=$(git diff --cached --name-only --diff-filter=ACMRD)
+SIGNATURE_SCRIPT="$REPO_ROOT/marketing-materials/export-signature.sh"
+SIGNATURE_OUT="$REPO_ROOT/marketing-materials/out/email-templates/signature.html"
+
+if grep -qE "^(frontend/config/_default/hugo\.toml|marketing-materials/email-templates/signature\.html|marketing-materials/export-signature\.sh)$" <<<"$staged"; then
+  echo "pre-commit: signature sources changed - regenerating the signature..."
+  "$SIGNATURE_SCRIPT"
+  git add "$SIGNATURE_OUT"
+fi
+
 if ! grep -qE "^($LOGO_SRC_REL/.*\.svg|marketing-materials/export-logos\.sh)$" <<<"$staged"; then
   exit 0
 fi

@@ -1,5 +1,6 @@
 ---
 title: "FAQ"
+description: "Frequently asked questions about O'Town Makerspace in Odense: membership, access, machines, safety, costs and how to get started."
 weight: 60
 ---
 
@@ -63,7 +64,7 @@ weight: 60
 
 <details>
 <summary>What if I break something?</summary>
-<p>You can't make an omelette without breaking a few eggs. If something breaks, report it on Discord <a href="https://discord.com/channels/1330501220959256667/1342501102410534913">#ask-for-help</a> so it can be addressed quickly. That said, members are liable for damage resulting from improper or irresponsible use.</p>
+<p>You can't make an omelette without breaking a few eggs. If something breaks, report it on Discord <a href="{{< discord-help-channel-url >}}">#ask-for-help</a> so it can be addressed quickly. That said, members are liable for damage resulting from improper or irresponsible use.</p>
 </details>
 
 <details>
@@ -75,5 +76,5 @@ weight: 60
 
 <details>
 <summary>How can I get involved beyond using the space?</summary>
-<p>The makerspace is run entirely by volunteers. You can help with maintenance, host workshops, join the board, or contribute in other ways. Join the <a href="https://discord.gg/HDR8jsUp">Discord</a> to connect with the community.</p>
+<p>The makerspace is run entirely by volunteers. You can help with maintenance, host workshops, join the board, or contribute in other ways. Join the <a href="{{< discord-url >}}">Discord</a> to connect with the community.</p>
 </details>

@@ -16,6 +16,7 @@
 // ─────────────────────────────────────────────────────────────────────────────
 
 #let marketing = toml("/marketing-materials/marketing.toml")
+#let site-social = toml("/frontend/config/_default/hugo.toml").params.social
 #let primary-font = marketing.fonts.primary
 #let display-font = marketing.fonts.at("display", default: marketing.fonts.primary)
 
