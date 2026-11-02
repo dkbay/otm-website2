@@ -47,6 +47,10 @@ echo "Exporting brand logos…"
 "$SCRIPT_DIR/export-logos.sh"
 echo ""
 
+echo "Exporting the Gmail signature..."
+"$SCRIPT_DIR/export-signature.sh"
+echo ""
+
 # Format catalogue — slides are .typ basenames under marketing-materials/<format>/
 declare -A SLIDES=(
   ["square"]="01-hook 02-pain 03-solution 04-proof 05-cta"

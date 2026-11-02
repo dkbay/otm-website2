@@ -52,7 +52,7 @@
     dir: ltr, spacing: 5mm,
     qr-tile(social.facebook, "thumb_up", "Facebook", d.facebook_url),
     qr-tile(social.instagram, "photo_camera", "Instagram", d.instagram_url),
-    qr-tile(social.discord, "forum", "Discord", d.discord_url),
+    qr-tile(social.discord, "forum", "Discord", site-social.discord),
   )
 ]
 

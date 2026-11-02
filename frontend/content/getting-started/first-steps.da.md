@@ -1,5 +1,6 @@
 ---
 title: "Første skridt"
+description: "Sådan bliver du medlem af O'Town Makerspace i Odense: besøg et åbent hus, få din introduktion, læs dokumenterne og tilmeld dig online."
 weight: 20
 ---
 Hvis du er ny i makerspacet og gerne vil forstå, hvordan du bliver en del af fællesskabet, er her den enkle vej til at komme i gang:
@@ -27,7 +28,7 @@ Når du føler, at makerspacet er noget, du gerne vil være en del af, er næste
 Når du har besluttet, at du vil have fuld adgang, er her hvordan du kommer i gang:
 
 1. **Tilmeld dig et medlemskab** — Registrer dig som betalende medlem på vores [medlemsportal]({{< members-url "signup" >}})
-2. **Tilslut dig Discord** — Bliv en del af fællesskabet på [makerspacets Discord](https://discord.gg/HDR8jsUp)
+2. **Tilslut dig Discord** — Bliv en del af fællesskabet på [makerspacets Discord]({{< discord-url >}})
 3. **Kom forbi til Åbent Hus** — Deltag i en Åbent Hus-session for at få den officielle introduktion og orientering fra et bestyrelsesmedlem
 
 ## 5. Din første introduktion

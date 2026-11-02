@@ -30,15 +30,16 @@ import (
 // Service holds the dependencies the Stripe handlers need. Constructed once
 // in main() and used to register routes.
 type Service struct {
-	Cfg       config.Config
-	DB        *sql.DB
-	Sessions  *session.Store
-	Mailer    *email.Mailer
-	Captcha   *captcha.Service
-	Contacts  *googlecontacts.Client // Gmail mailing-list label sync; disabled client when Google creds absent
-	HugoHead  template.HTML          // <head> contents lifted from Hugo's public/index.html for the dashboard's chrome
-	LogoLight template.HTML          // inline SVG of the light-mode horizontal lockup, mirrors marketing-site usage
-	LogoDark  template.HTML          // inline SVG of the dark-mode wordmark, mirrors marketing-site usage
+	Cfg        config.Config
+	DB         *sql.DB
+	Sessions   *session.Store
+	Mailer     *email.Mailer
+	Captcha    *captcha.Service
+	Contacts   *googlecontacts.Client // Gmail mailing-list label sync; disabled client when Google creds absent
+	HugoHead   template.HTML          // <head> contents lifted from Hugo's public/index.html for the dashboard's chrome
+	LogoLight  template.HTML          // inline SVG of the light-mode horizontal lockup, mirrors marketing-site usage
+	LogoDark   template.HTML          // inline SVG of the dark-mode wordmark, mirrors marketing-site usage
+	DiscordURL string
 }
 
 // NewService returns a Service. All dependencies must be non-nil. HugoHead is
@@ -48,15 +49,16 @@ type Service struct {
 // empty and the header simply renders without a logo (no crash).
 func NewService(cfg config.Config, db *sql.DB, sessions *session.Store, mailer *email.Mailer, captchaSvc *captcha.Service, contacts *googlecontacts.Client) *Service {
 	return &Service{
-		Cfg:       cfg,
-		DB:        db,
-		Sessions:  sessions,
-		Mailer:    mailer,
-		Captcha:   captchaSvc,
-		Contacts:  contacts,
-		HugoHead:  loadHugoHead(cfg.Backend.StaticDir),
-		LogoLight: loadInlineSVG(cfg.Backend.StaticDir, "images/branding/logos/horizontal-lockup-notagline.svg"),
-		LogoDark:  loadInlineSVG(cfg.Backend.StaticDir, "images/branding/logos/wordmark-white-transparent.svg"),
+		Cfg:        cfg,
+		DB:         db,
+		Sessions:   sessions,
+		Mailer:     mailer,
+		Captcha:    captchaSvc,
+		Contacts:   contacts,
+		HugoHead:   loadHugoHead(cfg.Backend.StaticDir),
+		LogoLight:  loadInlineSVG(cfg.Backend.StaticDir, "images/branding/logos/horizontal-lockup-notagline.svg"),
+		LogoDark:   loadInlineSVG(cfg.Backend.StaticDir, "images/branding/logos/wordmark-white-transparent.svg"),
+		DiscordURL: loadDiscordURL(cfg.Backend.StaticDir),
 	}
 }
 
