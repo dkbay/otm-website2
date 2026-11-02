@@ -27,11 +27,11 @@ Et fælles værksted fungerer bedst, når alle tager ansvar for at holde det ren
 
 ## Værktøj & udstyr
 - Stil alt værktøj tilbage på dets anviste opbevaringsplads.
-- Hvis et værktøj er beskadiget, mærk det og giv besked til gruppen på Discord [#ask-for-help](https://discord.com/channels/1330501220959256667/1342501102410534913).
+- Hvis et værktøj er beskadiget, mærk det og giv besked til gruppen på Discord [#ask-for-help]({{< discord-help-channel-url >}}).
 - Efterlad ikke værktøj eller maskiner i en tilstand, der gør dem usikre eller ubrugelige.
 - Tilslut og brug støvsugeren med værktøj, der har en tilslutningsåbning
 - Støvsug omgivelserne umiddelbart efter endt arbejde
-   - Hvis støvsugerkraften er meget dårlig, udskift posen eller giv besked på Discord [#ask-for-help](https://discord.com/channels/1330501220959256667/1342501102410534913)
+   - Hvis støvsugerkraften er meget dårlig, udskift posen eller giv besked på Discord [#ask-for-help]({{< discord-help-channel-url >}})
 - Brug det korrekt dedikerede arbejdsområde til opgaven (træ i træværkstedet; metal i metalværkstedet osv.)
 - Efterlad værktøj og maskiner i en sikker og brugbar tilstand.
 

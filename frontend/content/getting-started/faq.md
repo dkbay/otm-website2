@@ -64,7 +64,7 @@ weight: 60
 
 <details>
 <summary>What if I break something?</summary>
-<p>You can't make an omelette without breaking a few eggs. If something breaks, report it on Discord <a href="https://discord.com/channels/1330501220959256667/1342501102410534913">#ask-for-help</a> so it can be addressed quickly. That said, members are liable for damage resulting from improper or irresponsible use.</p>
+<p>You can't make an omelette without breaking a few eggs. If something breaks, report it on Discord <a href="{{< discord-help-channel-url >}}">#ask-for-help</a> so it can be addressed quickly. That said, members are liable for damage resulting from improper or irresponsible use.</p>
 </details>
 
 <details>

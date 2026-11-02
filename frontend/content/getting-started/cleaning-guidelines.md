@@ -27,11 +27,11 @@ A shared workshop works best when everyone takes responsibility for keeping it c
 
 ## Tools & Equipment
 - Return all tools to their designated storage location.
-- If a tool is damaged, label it and notify the group on Discord [#ask-for-help](https://discord.com/channels/1330501220959256667/1342501102410534913).
+- If a tool is damaged, label it and notify the group on Discord [#ask-for-help]({{< discord-help-channel-url >}}).
 - Do not leave tools or machines in a state that makes them unsafe or unusable.
 - Attach and use vacuum with the tools that have an attachment hole
 - Vacuum the surroundings immediately after finishing work
-   - If vacuum power is very poor replace the bag or notify on Discord [#ask-for-help](https://discord.com/channels/1330501220959256667/1342501102410534913)
+   - If vacuum power is very poor replace the bag or notify on Discord [#ask-for-help]({{< discord-help-channel-url >}})
 - Use the appropriately dedicated workspace for the job (wood in wood workshop; metal in metal workshop etc.)
 - Leave tools and machines in a safe and usable state.
 

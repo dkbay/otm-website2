@@ -1,0 +1,5 @@
+{{- with site.Params.social.discordHelpChannel -}}
+  {{- . -}}
+{{- else -}}
+  {{- errorf "params.social.discordHelpChannel is missing from the site config" -}}
+{{- end -}}

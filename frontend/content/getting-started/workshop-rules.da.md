@@ -10,7 +10,7 @@ Dette er de grundlæggende regler og gode vaner, der får makerspacet til at fun
 
 - Behandl makerspacet, som om det var dit eget værksted — bare ét du deler med andre.
 - Ændr, justér eller rekalibrér ikke delte maskiner uden at spørge gruppen først.
-- Rapportér alt, der er i stykker, beskadiget eller ikke på sin plads, på Discord [#ask-for-help](https://discord.com/channels/1330501220959256667/1342501102410534913).
+- Rapportér alt, der er i stykker, beskadiget eller ikke på sin plads, på Discord [#ask-for-help]({{< discord-help-channel-url >}}).
 - Hold støjniveauet rimeligt, især når andre arbejder i nærheden.
 
 ## Respektér hinanden

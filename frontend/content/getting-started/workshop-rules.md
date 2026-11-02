@@ -10,7 +10,7 @@ These are the basic rules and best practices that keep the makerspace running sm
 
 - Treat the makerspace as if it were your own workshop — but one you share with others.
 - Do not modify, adjust, or recalibrate shared machines without consulting the group first.
-- Report anything broken, damaged, or out of place on Discord [#ask-for-help](https://discord.com/channels/1330501220959256667/1342501102410534913).
+- Report anything broken, damaged, or out of place on Discord [#ask-for-help]({{< discord-help-channel-url >}}).
 - Keep noise at reasonable levels, especially when others are working nearby.
 
 ## Respect Each Other

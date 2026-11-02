@@ -64,7 +64,7 @@ weight: 60
 
 <details>
 <summary>Hvad hvis jeg ødelægger noget?</summary>
-<p>Man kan ikke lave en omelet uden at slå et par æg i stykker. Hvis noget går i stykker, rapportér det på Discord <a href="https://discord.com/channels/1330501220959256667/1342501102410534913">#ask-for-help</a>, så det kan blive håndteret hurtigt. Medlemmer er dog ansvarlige for skader forårsaget af forkert eller uansvarlig brug.</p>
+<p>Man kan ikke lave en omelet uden at slå et par æg i stykker. Hvis noget går i stykker, rapportér det på Discord <a href="{{< discord-help-channel-url >}}">#ask-for-help</a>, så det kan blive håndteret hurtigt. Medlemmer er dog ansvarlige for skader forårsaget af forkert eller uansvarlig brug.</p>
 </details>
 
 <details>
