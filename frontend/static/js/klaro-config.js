@@ -24,8 +24,7 @@ window.klaroConfig = {
     // Default consent state (false = opt-in required)
     default: true,
 
-    // Must consent before using the site
-    mustConsent: true,
+    mustConsent: false,
 
     // Accept all by default when clicking accept
     acceptAll: true,
